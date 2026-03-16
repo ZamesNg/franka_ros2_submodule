@@ -53,8 +53,8 @@ franka_safe_controller:
     cbf_lambda: 2.0e+2
     cbf_move_gain: 2.0e+1
     safe_distance: 0.02
-    obs_tran: [0.35, 0.8, 0.1]
-    obs_vel: [+0.0, -2.0, 3.8]
+    obs_tran: [0.4, 0.8, 0.06]
+    obs_vel: [-0.0, -2.0, 4.0]
     gravity: 9.81
     stab_gains: [3.0, 3.0, 3.0, 3.0, 2.0, 2.0, 1.0]
     joint_des: [0.0, 0.0, 0.0, -1.57, 0.0, 1.57, 0.785]
